@@ -1,0 +1,38 @@
+body {
+    background-color: #EAF4E0;
+    font-family: 'Chakra Petch', serif;
+}
+
+header {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.name {
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.navbar {
+    margin: auto 2rem auto auto;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 3rem;
+}
+
+.a-nav {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
