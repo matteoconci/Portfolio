@@ -5,9 +5,12 @@ body {
     margin: 0 auto;
 }
 
+/*Header and navbar*/
+
 header {
     margin-top: 1rem;
     display: flex;
+    margin-bottom: 2rem;
 }
 
 .name {
@@ -36,4 +39,51 @@ header {
 
 .nav-item:hover {
     text-decoration: underline;
+}
+
+/*Home page about me*/
+
+h2 {
+    font-size: 2rem;
+}
+
+.about-me-h2 {
+    margin-bottom: 0;
+
+}
+
+.about-me-content {
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.profile-pic {
+    max-width: 280px;
+    margin-left: 2rem;
+}
+
+.about-me-skills {
+    margin-top: 3rem;
+}
+
+.skills-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+
+.skill-item {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.skill-icon {
+    max-width: 3rem;
+    margin-right: 1rem;
 }
