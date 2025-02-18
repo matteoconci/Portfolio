@@ -6,6 +6,11 @@ body {
     font-size: 16px;
 }
 
+.project,
+.contact {
+    display: none;
+}
+
 /*Header and navbar*/
 
 header {
@@ -52,6 +57,7 @@ nav {
 h2 {
     font-size: 2rem;
     margin-top: 4rem;
+    margin-bottom: 3rem;
 }
 
 .about-me-h2 {
@@ -105,11 +111,24 @@ h2 {
     margin-right: 3rem;
 }
 
-.projects-item {
+.project-flexbox,
+.project-2,
+.project-3 {
     font-style: italic;
 }
 
-.projects-item:hover {
+.project-flexbox {
+    text-decoration: underline;
+}
+
+.two,
+.three {
+    display: none;
+}
+
+.project-flexbox:hover,
+.project-2:hover,
+.project-3:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -121,6 +140,10 @@ h2 {
 
 .projects-content a {
     color: black;
+}
+
+.projects-content a:hover {
+    text-decoration: none;
 }
 
 /*Contact page*/
