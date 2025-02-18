@@ -240,8 +240,7 @@ h2 {
     }
 
     .contact-text {
-        text-align: center;
-        margin: 0 3rem;
+        text-align: justify;
     }
 
     .about-me,
@@ -251,7 +250,7 @@ h2 {
     }
 
     .contact {
-        margin-bottom: 5rem;
+        margin: 0 3rem 5rem 3rem;
     }
 }
 
