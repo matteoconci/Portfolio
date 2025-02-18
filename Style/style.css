@@ -3,6 +3,7 @@ body {
     font-family: 'Chakra Petch', serif;
     max-width: 1000px;
     margin: 0 auto;
+    font-size: 16px;
 }
 
 /*Header and navbar*/
@@ -49,7 +50,6 @@ h2 {
 
 .about-me-h2 {
     margin-bottom: 0;
-
 }
 
 .about-me-content {
@@ -113,6 +113,10 @@ h2 {
     margin-top: 2.5rem;
 }
 
+.projects-content a {
+    color: black;
+}
+
 /*Contact page*/
 
 .contact-text {
@@ -136,3 +140,119 @@ h2 {
 .mail-contact img {
     max-width: 3.5rem;
 }
+
+/*Media query*/
+
+@media only screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    h1 {
+        margin-bottom: 0;
+        margin-top: 0.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .about-me-h2 {
+        margin-top: 3rem;
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+        background-color: #EAF4E0;
+        z-index: 100;
+        padding: 0.5rem;
+    }
+
+    .nav-list {
+        margin: auto;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .nav-item {
+        margin: 0.5rem 1rem;
+    }
+
+    .about-me-content {
+        flex-direction: column;
+        text-align: justify;
+        font-size: 1rem;
+        margin: 0 3rem;
+
+    }
+
+    .profile-pic {
+        margin: 1rem auto 0 auto;
+        max-width: 100%;
+    }
+
+    .skills-list,
+    .projects-list {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: auto;
+    }
+
+    .skill-item {
+        margin: 1rem 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .skill-icon {
+        margin: 0 0 1rem 0;
+        max-width: 6rem;
+    }
+
+    .projects-content p {
+        margin: 2rem 3rem;
+        text-align: justify;
+    }
+
+    .projects-content {
+        margin-top: 1.5rem;
+    }
+
+    .projects-item {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .link-flexbox,
+    .link-project2,
+    .link-project3 {
+        text-align: center;
+    }
+
+    .projects-space {
+        display: none;
+    }
+
+    .contact-text {
+        text-align: center;
+    }
+
+    .about-me,
+    .project,
+    .contact {
+        scroll-margin-top: 57px;
+    }
+
+    .contact {
+        margin-bottom: 5rem;
+    }
+}
+
+
+/* DA MODIFICARE IL LINK INTERNO ALLE SEZIONE CHE VA SOTTO LA NAVBAR */
