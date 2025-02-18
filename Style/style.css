@@ -156,11 +156,8 @@ h2 {
     }
 
     h2 {
-        font-size: 1.8rem;
+        font-size: 2rem;
         text-align: center;
-    }
-
-    .about-me-h2 {
         margin-top: 3rem;
     }
 
@@ -191,7 +188,7 @@ h2 {
     }
 
     .profile-pic {
-        margin: 1rem auto 0 auto;
+        margin: 1rem auto 2rem auto;
         max-width: 100%;
     }
 
@@ -241,6 +238,8 @@ h2 {
 
     .contact-text {
         text-align: justify;
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
     }
 
     .about-me,
